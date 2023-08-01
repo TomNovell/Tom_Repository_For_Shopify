@@ -1,6 +1,6 @@
 {% assign main_menu_linklist = linklists[section.settings.menu].links %}
-Hello World
-<div class="relative bg-white" x-data="{ mobileMenuOpen: true }">
+
+<div class="relative bg-white" x-data="{ mobileMenuOpen: false }">
   <div class="mx-auto px-4 sm:px-6">
     <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
       <!-- STORE NAME / STORE LOGO -->
@@ -153,6 +153,12 @@ Hello World
         "id": "menu",
         "label": "Header Menu",
         "default": "main-menu"
+      }, {
+        "type": "text",
+        "id": "mobile_menu_open",
+        "label": "Mobile Menu Open",
+        "default": "false",
+        "info": "Set to 'true' to open the mobile menu by default."
       }
     ]
   }
