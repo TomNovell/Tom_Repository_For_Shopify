@@ -1,28 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-/* module.exports = {
-  content: [
-    './layout/*.liquid', 
-    './sections/*.liquid',
-    './snippets/*.liquid',
-    './templates/customers/*.liquid',
-    './templates/*.liquid'
-  ],
+module.exports = {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
-  plugins: [],
-} */
-
-module.exports = {
-  content: {
-    files: [
-      './layout/*.liquid',
-      './sections/*.liquid',
-      './snippets/*.liquid',
-      './templates/customers/*.liquid',
-      './templates/*.liquid',
-      './assets/*.css', // Include any custom CSS files you created
-    ],
+  variants: {
+    extend: {},
   },
-};
-
+  plugins: [],
+}

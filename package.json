@@ -1,20 +1,25 @@
 {
   "name": "elizabeth",
   "version": "1.0.0",
-  "description": "[![Generic badge](https://img.shields.io/badge/course%20available%3F-yes-green.svg)](https://shields.io/)",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss build css/application.css -o assets/application.css.liquid && theme deploy"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbbpppolly/Elizabeth.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
+  "bugs": {
+    "url": "https://github.com/bbbpppolly/Elizabeth/issues"
   },
-  "dependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.27"
+  "homepage": "https://github.com/bbbpppolly/Elizabeth#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
   }
 }
