@@ -1,3 +1,4 @@
+/*
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -9,3 +10,10 @@ module.exports = {
   },
   plugins: [],
 }
+*/
+module.exports = {
+  purge: {
+    enabled: true,
+    content: ["./**/*.liquid"],
+  },
+};
